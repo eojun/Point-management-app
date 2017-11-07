@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.qhshe.oops_1.RegisterActivity">
+
+    <EditText
+        android:id="@+id/snoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="학번"
+        android:inputType="textPersonName"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/snoText"
+        android:ems="10"
+        android:hint="이름"
+        android:inputType="textPersonName"
+        android:layout_alignLeft="@+id/snoText"
+        android:layout_alignStart="@+id/snoText"
+        android:layout_alignRight="@+id/snoText"
+        android:layout_alignEnd="@+id/snoText" />
+
+    <EditText
+        android:id="@+id/goldText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/nameText"
+        android:layout_alignLeft="@+id/nameText"
+        android:layout_alignStart="@+id/nameText" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        android:layout_below="@+id/goldText"
+        android:layout_alignLeft="@+id/goldText"
+        android:layout_alignStart="@+id/goldText"
+        android:layout_alignRight="@+id/goldText"
+        android:layout_alignEnd="@+id/goldText" />
+
+
+</RelativeLayout>

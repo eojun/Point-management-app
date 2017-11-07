@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">OOPS_1</string>
+    <string name="navigation_goldView">Home</string>
+    <string name="navigation_goldTable">Dashboard</string>
+    <string name="navigation_MyPage">Notifications</string>
+
+</resources>
